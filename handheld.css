@@ -1,9 +1,17 @@
-p.text {
+p.text1 {
 	width:50%;
 	text-align:justify;
 	font-size: 14px;
 	float:left;
 }
+
+p.text2 {
+	width:50%;
+	text-align:justify;
+	font-size: 14px;
+	float:right;
+}
+	
 
 body{
 	background-color:#d0e4fe;
