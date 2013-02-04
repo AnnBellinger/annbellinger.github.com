@@ -1,7 +1,8 @@
-p {
+p.text {
 	width:50%;
 	text-align:justify;
 	font-size: 14px;
+	float:left;
 }
 
 body{
@@ -14,4 +15,19 @@ body{
 	float: right;
 	width:100%;
 	text-align:center;
+}
+
+img.first{
+	display:block;
+    float:left;
+	height:225px;
+	width:300px;
+}
+
+img.second{
+	display:block;
+	float:right;
+	margin:5%;
+	height:300px;
+	width:460px;
 }
