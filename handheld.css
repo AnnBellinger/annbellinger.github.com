@@ -1,0 +1,33 @@
+p.text {
+	width:50%;
+	text-align:justify;
+	font-size: 14px;
+	float:left;
+}
+
+body{
+	background-color:#d0e4fe;
+}
+
+#footer{
+	position:fixed;
+	bottom:0;
+	float: right;
+	width:100%;
+	text-align:center;
+}
+
+img.first{
+	display:block;
+    float:left;
+	height:100px;
+	width:150px;
+}
+
+img.second{
+	display:block;
+	float:right;
+	margin:5%;
+	height:150px;
+	width:200px;
+}
