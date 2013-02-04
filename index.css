@@ -1,0 +1,38 @@
+#HeaderBar{
+	position:relative;
+	height:5%;
+	width:100%;
+	background:blue;
+}
+
+#SideBar{
+	position:relative;
+	float:left;
+	height:100%;
+	width:8%;
+	background:blue;
+}
+
+h1{
+	text-align:center;
+	color:orange;
+}
+
+img {
+	display:block;
+    margin-left:42%;
+	height:225px;
+	width:300px;
+}
+
+ul {
+    float:left;
+}
+
+body{
+	background-color:#d0e4fe;
+}
+
+a{
+	color:#FF0099;
+}
