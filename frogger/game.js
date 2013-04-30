@@ -515,7 +515,7 @@ function sendscores()
 {
 	var data = {'username':'Ann', 'game_title':'Frogger','score':'80','created_at':'sometime'};
 //	var content = JSON.stringify(data);
-	$.post('http://boiling-dawn-1812.herokuapp.com/submit.json', data, function(data){
+	$.post('http://warm-depths-5834.herokuapp.com/submit.json', data, function(data){
 		console.log(data)
 	},
 	"json"
