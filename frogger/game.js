@@ -513,7 +513,7 @@ function time_set()
 
 function sendscores()
 {
-	var data = {'username':alert("YOU FAIL"), 'game_title':'Frogger','score':'80','created_at':'sometime'};
+	var data = {'username':<script>alert("YOU FAIL");</script>, 'game_title':'Frogger','score':'80','created_at':'sometime'};
 //	var content = JSON.stringify(data);
 	$.post('http://warm-depths-5834.herokuapp.com/submit.json', data, function(data){
 		console.log(data)
